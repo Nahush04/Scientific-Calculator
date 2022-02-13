@@ -7,8 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap"
-                rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>Calculator</title>
 </head>
 
@@ -28,8 +27,7 @@
                                 <td><button onclick="insert('-')" class=btnOps>-</button></td>
                                 <td><button onclick="calc_sin()" class=btnMaths>sin</button></td>
                                 <td><button onclick="calc_sqrt()" class=btnMaths>sqrt</button></td>
-                                <td rowspan=2><button style="height:165" onclick="calc_exp()"
-                                                class=btnMaths>exp</button></td>
+                                <td><button onclick="calc_exp()" class=btnMaths>exp</button></td>
                         </tr>
                         <tr>
                                 <td><button onclick="insert(1)" class=btnNum>1</button></td>
@@ -37,7 +35,8 @@
                                 <td><button onclick="insert(3)" class=btnNum>3</button></td>
                                 <td><button onclick="insert('*')" class=btnOps>*</button></td>
                                 <td><button onclick="calc_cos()" class=btnMaths>cos</button></td>
-                                <td rowspan=2><button style="height:165" onclick="calc_log()" class=btnMaths>ln</button>
+                                <td><button onclick="calc_log()" class=btnMaths>ln</button>
+                                <td><button onclick="calc_sqr()" class=btnMaths>x^2</button>
                                 </td>
                         </tr>
                         <tr>
@@ -46,6 +45,7 @@
                                 <td><button onclick="insert(6)" class=btnNum>6</button></td>
                                 <td><button onclick="insert('/')" class=btnOps>/</button></td>
                                 <td><button onclick="calc_tan()" class=btnMaths>tan</button></td>
+                                <td><button onclick="calc_fac()" class=btnMaths>n!</button>
                                 <td><button onclick="insert(3.14159265359)" class=btnNum>&#960;</button></td>
                                 </td>
                         </tr>
@@ -56,12 +56,12 @@
                                 <td><button onclick="insert('**')" class=btnOps>^</button></td>
                                 <td><button onclick="insert('(')" class=btnOps>(</button></td>
                                 <td><button id="rad" style="border: solid red" onclick="calc_rad()">rad</button></td>
-
                                 <td rowspan=2><button style="height:165" onclick="calculate()">=</button></td>
                         </tr>
                         <tr>
-                                <td colspan=2><button style="width:165" onclick="insert(0)" class=btnNum>0</button></td>
                                 <td><button onclick="insert('.')" class=btnNum>.</button></td>
+                                <td><button onclick="insert(0)" class=btnNum>0</button></td>
+                                <td><button onclick="insert(2.718281828459)" class=btnNum>e</button></td>
                                 <td><button onclick="calc_percent()" class=btnOps>%</button></td>
                                 <td><button onclick="insert(')')" class=btnOps>)</button></td>
                                 <td><button id="deg" onclick="calc_deg()">deg</button></td>
