@@ -1,0 +1,70 @@
+body {
+  background-color:rgb(188, 188, 236);
+}
+
+.main {
+  border: 2px solid #3d303f;
+  width: 39%;
+  height: 90%;
+  background: linear-gradient(rgb(222, 142, 224), rgb(196, 162, 235));
+  margin: auto;
+  padding: 23px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.textinput {
+  width: 590;
+  height: 70;
+  border: solid;
+  background-color: rgb(44, 42, 42);
+  border: 3px solid rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+  color: #c8b8ee;
+  text-align: right;
+}
+
+button {
+  width: 80;
+  height: 80;
+  font-size: 25;
+  font-family: 'Roboto', sans-serif;
+  border: solid;
+  border-radius: 20px;
+  background-color: #ff9933;
+}
+
+.btnMaths {
+  width: 80;
+  height: 80;
+  font-size: 25;
+  font-family: 'Roboto', sans-serif;
+  border: solid;
+  border-radius: 20px;
+  background-color: #e7c361;
+}
+
+.btnNum {
+  width: 80;
+  height: 80;
+  font-size: 25;
+  font-family: 'Roboto', sans-serif;
+  border: solid;
+  border-radius: 20px;
+  background-color: #c3e761;
+}
+
+.btnOps {
+  width: 80;
+  height: 80;
+  font-size: 25;
+  font-family: 'Roboto', sans-serif;
+  border: solid;
+  border-radius: 20px;
+  background-color: #e77561;
+}
